@@ -13,5 +13,6 @@ module Dothuytrang
     config.eager_load = false if Rails.env.development? || Rails.env.test?
 
     config.load_defaults 7.0
+    config.hosts << "dothuytrang-production-f4b6.up.railway.app"
   end
 end
